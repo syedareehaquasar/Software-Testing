@@ -5,10 +5,10 @@ a = int(input("Enter Value of a: "))
 b = int(input("Enter Value of b: "))
 c = int(input("Enter Value of c: "))
 
-d = cmath.sqrt((b**2) - (4*a*c))
+sqrt_d = cmath.sqrt((b**2) - (4*a*c))
 
-root1 = (-b - d)/(2*a)
-root2 = (-b + d)/(2*a)
+root1 = (-b - sqrt_d)/(2*a)
+root2 = (-b + sqrt_d)/(2*a)
 
 print('The real roots of the equation "{0}x^2 + {1}x + {2} = 0" are {3} and {4}\n'.format(a, b, c, root1.real, root2.real))
 
