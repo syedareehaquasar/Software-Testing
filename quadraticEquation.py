@@ -10,4 +10,6 @@ d = cmath.sqrt((b**2) - (4*a*c))
 root1 = (-b - d)/(2*a)
 root2 = (-b + d)/(2*a)
 
-print('The roots of the equation "{0}x^2 + {1}x + {2} = 0" are {3} and {4}'.format(a, b, c, root1, root2))
+print('The real roots of the equation "{0}x^2 + {1}x + {2} = 0" are {3} and {4}\n'.format(a, b, c, root1.real, root2.real))
+
+print('The imaginary roots of the equation "{0}x^2 + {1}x + {2} = 0" are {3} and {4}'.format(a, b, c, root1.imag, root2.imag))
